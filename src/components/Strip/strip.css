@@ -1,0 +1,31 @@
+.strip {
+  margin-top: 100px;
+}
+
+.strip__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 104px;
+  background: #E6E6E6;
+  border-radius: 28px;
+}
+
+.strip__section {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 40px 0 40px;
+}
+
+.strip__image {
+  width: 42px;
+  height: 42px;
+}
+
+.strip__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 173%;
+  color: #111111;
+}

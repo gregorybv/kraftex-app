@@ -1,0 +1,86 @@
+
+.header {
+  /*position: relative;*/
+}
+
+.header__block{
+  /*position: relative;*/
+}
+
+.header__hat {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  /*max-width: 1243px;*/
+  width: 100%;
+}
+
+.header__image {
+  position: relative;
+  display: flex;
+}
+
+.header__vector{
+  /*cursor: pointer;*/
+  /*position: absolute;*/
+  /*top: 20px;*/
+  /*right: 20px;*/
+  /*z-index: 2;*/
+}
+
+.header__kraftex {
+  margin-top: 80px;
+  max-width: 812px;
+  width: 100%;
+  height: 164px;
+}
+
+.header__ball {
+  max-width: 781px;
+  /*position: absolute;*/
+  /*left: 566px;*/
+  /*top: 41px;*/
+margin: 0px 0px 0px -243px;
+  width: 100%;
+  height: 780px;
+  opacity: 0.7;
+  background: linear-gradient(151.03deg, rgba(53, 104, 43, 0.06) 15.04%, rgba(53, 104, 43, 0) 34.52%, rgba(62, 115, 51, 0.0516) 49.99%, rgba(71, 127, 60, 0.00822083) 66.94%, rgba(166, 246, 150, 0.0516983) 89.84%);
+  mix-blend-mode: normal;
+}
+
+/*.header__ballvector {*/
+/*  !*position: absolute;*!*/
+/*  !*left: 409px;*!*/
+/*  !*right: 0;*!*/
+/*  !*top: -155px;*!*/
+/*  !*bottom: 0;*!*/
+/*  padding: 0px 0px 0px 0px;*/
+/*}*/
+
+.header__text {
+  position: relative;
+  /*width: 358px;*/
+  /*height: 56px;*/
+  left: 90px;
+  /*top: 508px;*/
+  bottom: 332px;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.header__subtext {
+  position: relative;
+  /*width: 227px;*/
+  /*height: 20px;*/
+  left: 244px;
+  /*top: 646px;*/
+  bottom: 244px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}

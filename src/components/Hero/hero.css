@@ -1,0 +1,46 @@
+.hero {
+  margin-top: 150px;
+}
+
+.hero__block {
+  display: flex;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #FFFFFF;
+  max-width: 840px;
+  float: right;
+}
+
+.hero__card {
+  max-width: 497px;
+  width: 100%;
+  height: 396px;
+  position: relative;
+  left: -40px;
+  top: -72px;
+  transform: rotate(352deg);
+}
+
+.hero__text{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #3E7A32;
+}
+
+.hero__subtext{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: right;
+}
+
+.hero__span{
+  color: #3E7A32;
+}
