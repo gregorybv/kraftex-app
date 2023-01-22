@@ -9,6 +9,7 @@ import Relocation from "./components/Relocation/Relocation.jsx";
 import Coin from "./components/Coin/Coin.jsx";
 import Swap from "./components/Swap/Swap.jsx";
 import Privileges from "./components/Privileges/Privileges.jsx";
+import Facts from "./components/Facts/Facts.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
       <Coin/>
       <Swap/>
       <Privileges/>
+      <Facts/>
     </>
   )
 }

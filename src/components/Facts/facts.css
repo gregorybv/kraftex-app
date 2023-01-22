@@ -1,0 +1,23 @@
+.facts{
+  margin-top: 150px;
+}
+
+.facts__block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facts__title{
+  margin-bottom: 55px;
+}
+
+.facts__content{
+  display: flex;
+}
+
+.facts__row{
+  display: flex;
+  flex-direction: row;
+  color: #FFFFFF;
+}
