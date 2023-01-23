@@ -35,6 +35,11 @@
   background: #36692C;
   border-radius: 8px;
   color: #FFFFFF;
+  cursor: pointer;
+}
+
+.clients__button:hover{
+  background: #68c252;
 }
 
 .button_arrow{

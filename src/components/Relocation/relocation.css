@@ -59,6 +59,11 @@
   font-size: 18px;
   line-height: 154%;
   color: #FFFFFF;
+  cursor: pointer;
+}
+
+.relocation__button:hover{
+  background: #68c252;
 }
 
 .relocation__footer{

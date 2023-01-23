@@ -51,6 +51,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 154%;
+  cursor: pointer;
+}
+
+.swap__button:hover{
+  background: #68c252;
 }
 
 .swap__footer{
