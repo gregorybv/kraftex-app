@@ -12,6 +12,8 @@ import Privileges from "./components/Privileges/Privileges.jsx";
 import Facts from "./components/Facts/Facts.jsx";
 import Products from "./components/Products/Products.jsx";
 import Clients from "./components/Clients/Clients.jsx";
+import Location from "./components/Location/Location.jsx";
+import Footer from "./components/Footeer/Footer.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +32,8 @@ function App() {
       <Facts/>
       <Products/>
       <Clients/>
+      <Location/>
+      <Footer/>
     </>
   )
 }

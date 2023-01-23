@@ -1,0 +1,27 @@
+
+.location__block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.location__vector {
+  max-width: 1690px;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+}
+
+.location__vectortwo {
+  max-width: 1684px;
+  margin-top: 80px;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+}
+
+.location__map {
+  width: 1699px;
+  height: 700px;
+  margin-top: 350px;
+}

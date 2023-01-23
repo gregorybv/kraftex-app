@@ -1,0 +1,16 @@
+.footer{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer__block{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 132%;
+  color: #949494;
+}
