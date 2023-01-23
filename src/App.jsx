@@ -11,6 +11,7 @@ import Swap from "./components/Swap/Swap.jsx";
 import Privileges from "./components/Privileges/Privileges.jsx";
 import Facts from "./components/Facts/Facts.jsx";
 import Products from "./components/Products/Products.jsx";
+import Clients from "./components/Clients/Clients.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
       <Privileges/>
       <Facts/>
       <Products/>
+      <Clients/>
     </>
   )
 }
