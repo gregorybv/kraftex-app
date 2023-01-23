@@ -16,7 +16,7 @@ const Facts = () => {
           <ul className="facts__rows">
             <ul className="facts__row">
               <li className="facts__text">Опыт управления финансами</li>
-              <li className="facts__subtext"> > 15 лет</li>
+              <li className="facts__subtext"> 15 лет</li>
               <img className="facts__image" src={one} alt="one"/>
             </ul>
             <ul className="facts__row">
@@ -43,7 +43,7 @@ const Facts = () => {
             </ul>
             <ul className="facts__row">
               <li className="facts__text">Клиентов по всему миру</li>
-              <li className="facts__subtext">> 500</li>
+              <li className="facts__subtext"> 500</li>
               <img className="facts__image" src={six} alt="six"/>
             </ul>
           </ul>
