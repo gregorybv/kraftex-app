@@ -26,7 +26,7 @@ const Header = () => {
           {/*<img className="header__ballvector" src={ballvector} alt="ballvector"/>*/}
         </div>
         <p className="header__text">“Ваше благополучие зависит <br/>
-          от ваших собственных решений”</p>
+          <span className="header__span">от ваших собственных решений”</span></p>
         <p className="header__subtext">ДЖОН РОКФЕЛЛЕР</p>
       </div>
       <Modal active={modalActive} setActive={setModalActive}/>

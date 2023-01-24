@@ -35,15 +35,24 @@
   background: #36692C;
   border-radius: 8px;
   color: #FFFFFF;
+  border: 1px solid #111111;
   cursor: pointer;
-}
-
-.clients__button:hover{
-  background: #68c252;
 }
 
 .button_arrow{
   max-width: 24px;
+  filter: grayscale(100%) saturate(100%);
+}
+
+.clients__button:hover .button_arrow {
+  background-color: #111111;
+  filter: none;
+  color:#68c252;
+}
+.clients__button:hover{
+  background-color: #111111;
+  border: 1px solid #68c252;
+  color:#68c252;
 }
 
 

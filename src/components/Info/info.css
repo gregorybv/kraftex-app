@@ -19,6 +19,14 @@ line-height: 28px;
 list-style: none;
 }
 
+.info__title{
+  cursor: pointer;
+}
+
+.info__title:hover{
+  color: #68c252;
+}
+
 .info__content{
   font-weight: 700;
 font-size: 16px;

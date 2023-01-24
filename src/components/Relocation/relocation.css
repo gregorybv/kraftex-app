@@ -51,19 +51,22 @@
 }
 
 .relocation__button{
-  margin: 70px 0 25px 0;
+  margin: 70px 0 20px 0;
   background: #36692C;
   border-radius: 8px;
   padding: 20px 32px;
   font-weight: 400;
   font-size: 18px;
   line-height: 154%;
+  border: 1px solid #111111;
   color: #FFFFFF;
   cursor: pointer;
 }
 
 .relocation__button:hover{
-  background: #68c252;
+  background: #111111;
+  border: 1px solid #68c252;
+  color: #68c252;
 }
 
 .relocation__footer{

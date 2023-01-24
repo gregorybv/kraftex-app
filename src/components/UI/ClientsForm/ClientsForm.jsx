@@ -1,6 +1,6 @@
 import React from 'react';
 import './clientsform.css'
-import arrow from '../../../assets/img/clients/arrow.svg'
+import arrow from '../../../assets/img/clients/arrow.png'
 import chit from '../../../assets/img/clients/chit.svg'
 
 
