@@ -1,18 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './header.css'
 import logo from '../../assets/img/logo.png'
 import vector from '../../assets/img/vector.svg'
 import kraftex from '../../assets/img/header/kraftex.svg'
 import ball from '../../assets/img/header/ball.svg'
 import ballvector from '../../assets/img/header/ballvector.svg'
+import Modal from "../UI/Modal/Modal.jsx";
 
 const Header = () => {
+  const [modalActive, setModalActive] = useState(false)
   return (
     <header className="header container">
       <div className="header__block">
         <div className="header__hat">
           <img src={logo} alt="logo"/>
-          <a className="header__vector" href="#"><img src={vector} alt="vector"/></a>
+          <button
+            className="header__vector"
+            onClick={() => setModalActive(true)}>
+            <img src={vector} alt="vector"/>
+          </button>
         </div>
         <div className="header__image">
           <img className="header__kraftex" src={kraftex} alt="kraftex"/>
@@ -23,6 +29,7 @@ const Header = () => {
           от ваших собственных решений”</p>
         <p className="header__subtext">ДЖОН РОКФЕЛЛЕР</p>
       </div>
+      <Modal active={modalActive} setActive={setModalActive}/>
     </header>
   )
 }
