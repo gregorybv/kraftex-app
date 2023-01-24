@@ -13,7 +13,7 @@ const Modal = ({active, setActive}) => {
         <div className="modal__header">
           <img src={logo} alt="logo"/>
           <button className='modal__button'  onClick={() => setActive(false)}>
-            <img src={x} alt="x"/>
+            <img className='modal__img' src={x} alt="x"/>
           </button>
         </div>
         <p className="modal__menu">МЕНЮ</p>

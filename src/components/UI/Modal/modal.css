@@ -35,6 +35,15 @@
   cursor: pointer;
 }
 
+.modal__button:hover{
+
+}
+
+.modal__img:hover{
+  transform: rotate(90deg);
+  transition: 0.4s all;
+}
+
 .modal__menu {
   font-weight: 300;
   font-size: 35px;
