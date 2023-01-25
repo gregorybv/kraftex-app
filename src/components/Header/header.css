@@ -11,6 +11,11 @@
   align-items: flex-start;
   justify-content: center;
 }
+@media (max-width: 915px) {
+  .header__image {
+    flex-wrap: wrap;
+  }
+}
 
 .header__vector {
   background: inherit;

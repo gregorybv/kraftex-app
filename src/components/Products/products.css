@@ -40,6 +40,7 @@
 @media (max-width: 915px) {
  .products__column{
    justify-content: center;
+   gap: 30px;
  }
 }
 
