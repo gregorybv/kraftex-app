@@ -12,8 +12,8 @@
   display: flex;
   margin-bottom: 55px;
   font-weight: 300;
-  font-size: 28px;
-  line-height: 99%;
+  font-size: 35px;
+  line-height: 100%;
 }
 
 .facts__content{
@@ -30,7 +30,7 @@
 .facts__row{
   display: flex;
   justify-content: space-between;
-  width: 593px;
+  width: 720px;
   color: #FFFFFF;
   background: #181818;
   border-radius: 28px;
@@ -41,20 +41,20 @@
 
 .facts__text{
   font-weight: 400;
-  font-size: 16px;
-  line-height: 124%;
+  font-size: 20px;
+  line-height: 125%;
   text-transform: uppercase;
 }
 
 .facts__subtext{
   font-weight: 200;
-  font-size: 20px;
-  line-height: 99%;
+  font-size: 25px;
+  line-height: 100%;
   color: rgba(166, 246, 150, 0.861638);
 }
 
 .facts__image{
-  max-width: 46px;
+  max-width: 57px;
   background: #292929;
   border-radius: 17px;
   padding: 15px 14px;

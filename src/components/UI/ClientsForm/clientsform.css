@@ -1,7 +1,7 @@
 .clients__form {
   display: flex;
   flex-direction: column;
-  gap: 29px;
+  gap: 35px;
 }
 
 .clients__labels{
@@ -14,7 +14,8 @@
   display: flex;
   flex-direction: column;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 160%;
 }
 
 .clients__input{
@@ -31,7 +32,11 @@
 .clients__button{
   display: flex;
   justify-content: space-between;
-  padding: 19px 63px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 140%;
+  padding: 25px 63px;
   background: #36692C;
   border-radius: 8px;
   color: #FFFFFF;
@@ -40,7 +45,7 @@
 }
 
 .button_arrow{
-  max-width: 24px;
+  max-width: 30px;
   filter: grayscale(100%) saturate(100%);
 }
 

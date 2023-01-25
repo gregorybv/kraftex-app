@@ -10,8 +10,8 @@
 
 .finance__title{
   font-weight: 300;
-  font-size: 28px;
-  line-height: 99%;
+  font-size: 35px;
+  line-height: 100%;
   text-transform: uppercase;
   background: linear-gradient(90.44deg, #36692C -21.63%, rgba(166, 246, 150, 0.861638) 31.59%, #36692C 117.56%);
   -webkit-background-clip: text;
@@ -21,8 +21,8 @@
 .finance__text{
   padding: 50px 0 70px 0;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 173%;
+  font-size: 20px;
+  line-height: 175%;
 }
 
 .finance__image{
@@ -31,5 +31,8 @@
 }
 
 .finance__span{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 175%;
   color: rgba(166, 246, 150, 0.861638);
 }

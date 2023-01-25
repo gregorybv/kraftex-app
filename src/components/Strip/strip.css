@@ -1,5 +1,5 @@
 .strip {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .strip__block {
@@ -19,13 +19,13 @@
 }
 
 .strip__image {
-  width: 42px;
-  height: 42px;
+  width: 50px;
+  height: 50px;
 }
 
 .strip__text {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 173%;
+  font-size: 20px;
+  line-height: 175%;
   color: #111111;
 }

@@ -4,6 +4,7 @@
 
 .hero__block {
   display: flex;
+  justify-content: space-between;
 }
 
 .hero__content {
@@ -16,9 +17,9 @@
 }
 
 .hero__card {
-  max-width: 497px;
+  max-width: 677px;
   width: 100%;
-  height: 396px;
+  height: 512px;
   position: relative;
   left: -40px;
   top: -72px;
@@ -27,8 +28,8 @@
 
 .hero__text{
   font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 175%;
   text-align: right;
   text-transform: uppercase;
   color: #3E7A32;
@@ -36,8 +37,8 @@
 
 .hero__subtext{
   font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 175%;
   text-align: right;
 }
 

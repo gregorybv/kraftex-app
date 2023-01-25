@@ -9,9 +9,9 @@
 }
 
 .privileges__header {
-  font-weight: 300;
-  font-size: 28px;
-  line-height: 99%;
+  ffont-weight: 300;
+  font-size: 35px;
+  line-height: 100%;
 }
 
 .privileges__content {
@@ -31,22 +31,22 @@
 .privileges__title {
   margin-top: 35px;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 124%;
+  font-size: 20px;
+  line-height: 125%;
   text-transform: uppercase;
 }
 
 .privileges__subtitle {
   font-weight: 200;
-  font-size: 16px;
-  line-height: 149%;
+  font-size: 20px;
+  line-height: 150%;
 }
 
 .privileges__text {
   margin-top: 20px;
   font-weight: 200;
-  font-size: 15px;
-  line-height: 132%;
+  font-size: 18px;
+  line-height: 139%;
   color: #939393;
 
 }

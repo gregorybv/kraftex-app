@@ -7,7 +7,7 @@ const Swap = () => {
       <div className="swap__block">
         <nav className="swap__header">
           <ul className="swap__column">
-            <li className="swap__title">Обмен валюты / криптовалюты - это операция
+            <li className="swap__title"><span className="swap__title_span">Обмен валюты / криптовалюты</span> - это операция
               по наличному или безналичному обмену валют и криптовалют в соответствии
               с установленным курсом, производящаяся онлайн или в специализированном
               пункте подразделения компании Kraftex.
