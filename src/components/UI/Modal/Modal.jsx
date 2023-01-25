@@ -46,7 +46,7 @@ const Modal = ({active, setActive}) => {
             <p className="modal__subtext"> +7 999 999-99-99</p>
           </div>
           <div className="modal__network">
-            <a href="#" ><img src={telegram} alt="telegram"/></a>
+            <a className="modal__link" href="#" ><img src={telegram} alt="telegram"/></a>
             <a href="#" ><img src={instagram} alt="instagram"/></a>
             <a href="#" ><img src={facebook} alt="facebook"/></a>
           </div>
