@@ -47,7 +47,7 @@ body {
   color: #FFFFFF;
   /*min-height: 100%;*/
   display: flex;
-  max-width: 1920px;
+  /*max-width: 1920px;*/
   width: 100vh;
   /*flex-direction: column;*/
   margin: 0 auto;
