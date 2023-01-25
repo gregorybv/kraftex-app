@@ -9,7 +9,7 @@
 }
 
 .privileges__header {
-  ffont-weight: 300;
+  font-weight: 300;
   font-size: 35px;
   line-height: 100%;
 }
@@ -33,6 +33,9 @@
   background: #181818;
   border-radius: 28px;
   padding: 33px 25px 33px 34px;
+}
+.privileges__column:hover{
+  background: #1F1F1F;
 }
 
 .privileges__title {
