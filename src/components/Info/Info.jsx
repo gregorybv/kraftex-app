@@ -5,11 +5,11 @@ const Info = () => {
   return (
     <section className='info container'>
       <nav className='info__block'>
-        <ul className='info__header'>
-          <li className='info__title'>Наш подход</li>
-          <li className='info__title'>Наша команда</li>
-          <li className='info__title'>Наши услуги</li>
-        </ul>
+        {/*<ul className='info__header'>*/}
+        {/*  <li className='info__title'>Наш подход</li>*/}
+        {/*  <li className='info__title'>Наша команда</li>*/}
+        {/*  <li className='info__title'>Наши услуги</li>*/}
+        {/*</ul>*/}
         <ul className='info__content'>
           <li className='info__subtitle'>
                         <span className='info__span'>

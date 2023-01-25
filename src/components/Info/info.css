@@ -9,12 +9,12 @@
   color: #FFFFFF;
 }
 
-.info__header {
-  display: flex;
-  flex-direction: row;
-  gap: 300px;
-  list-style: none;
-}
+/*.info__header {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  gap: 300px;*/
+/*  list-style: none;*/
+/*}*/
 
 .info__title {
   font-weight: 400;

@@ -10,7 +10,7 @@ const Coin = () => {
         <img className="coin__image" src={coin} alt="coin"/>
         <p className="coin__subtext">Kraftex предлагает услуги
           онлайн- и оффлайн-обмена валют
-          <span className="coin__subtext__span">(RUB, USD, EUR, USDT, BTC, ETH и др. криптовалют)</span>
+          <span className="coin__subtext__span">(RUB, USD, EUR, USDT, BTC, ETH и др. криптовалют) </span>
           в различных направлениях. Документов при осуществлении
           сделок по обмену не потребуются. Kraftex гарантирует
           безопасность, конфиденциальность и полное соблюдение

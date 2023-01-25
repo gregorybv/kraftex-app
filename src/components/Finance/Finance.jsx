@@ -9,7 +9,7 @@ const Finance = () => {
        <p className="finance__title">Финансовые перестановки</p>
        <p className="finance__text">Kraftex предлагает услуги перестановки
          активов <span className="finance__span">(Crypto, RUB, USD, EUR, AED, CNY)</span> в обе стороны между странами:
-         <span className="finance__span">Россия, ОАЭ, Турция, Китай, страны Евросоюза и США.</span> Также имеются опции
+         <span className="finance__span"> Россия, ОАЭ, Турция, Китай, страны Евросоюза и США.</span> Также имеются опции
          инкассации активов и заморозки полученного резерва на несколько дней в случае,
          если клиент желает забрать денежные средства в другой стране лично.</p>
        <img className="finance__image" src={finance} alt="finance"/>
