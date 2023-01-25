@@ -20,20 +20,22 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Hero/>
-      <Info/>
-      <Strip/>
-      <Finance/>
-      <Relocation/>
-      <Coin/>
-      <Swap/>
-      <Privileges/>
-      <Facts/>
-      <Products/>
-      <Clients/>
-      <Location/>
-      <Footer/>
+      <div className="wrapper">
+        <Header/>
+        <Hero/>
+        <Info/>
+        <Strip/>
+        <Finance/>
+        <Relocation/>
+        <Coin/>
+        <Swap/>
+        <Privileges/>
+        <Facts/>
+        <Products/>
+        <Clients/>
+        <Location/>
+        <Footer/>
+      </div>
     </>
   )
 }
