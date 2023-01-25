@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 1484px;
+  max-width: 1484px;
 }
 
 .products__column{
@@ -31,10 +31,16 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 85px;
   background: #E0E0E0;
-  height: 141px;
+  /*height: 141px;*/
   border-radius: 28px;
-  padding: 0 59px;
+  padding: 0px 59px;
+}
+@media (max-width: 915px) {
+ .products__column{
+   justify-content: center;
+ }
 }
 
 .products__text{
@@ -42,6 +48,7 @@
   font-size: 25px;
   line-height: 100%;
   color: #000000;
+  padding: 50px 0px;
 }
 
 .products__subtext{

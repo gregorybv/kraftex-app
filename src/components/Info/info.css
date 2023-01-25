@@ -45,6 +45,13 @@
   display: flex;
   gap: 130px;
 }
+@media (max-width: 915px) {
+  .info__footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
 
 .info__text {
   max-width: 413px;

@@ -12,6 +12,12 @@
   display: flex;
   gap: 73px;
 }
+@media (max-width: 915px) {
+  .swap__header{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 .swap__title{
   max-width: 750px;

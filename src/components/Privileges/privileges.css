@@ -20,6 +20,13 @@
   gap: 35px;
 }
 
+@media (max-width: 915px) {
+  .privileges__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .privileges__column {
   max-width: 469px;
   list-style: none;

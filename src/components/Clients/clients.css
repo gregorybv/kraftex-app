@@ -24,6 +24,13 @@
   gap: 114px;
   display: flex;
 }
+@media (max-width: 915px) {
+  .clients__content {
+  flex-wrap: wrap;
+    justify-content: center;
+    gap: 114px;
+  }
+}
 
 .clients__image{
   max-width: 719px;

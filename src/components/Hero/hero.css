@@ -1,10 +1,22 @@
 .hero {
   margin-top: 150px;
 }
+@media (max-width: 915px) {
+  .hero {
+    margin-top: 75px;
+  }
+}
 
 .hero__block {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 915px) {
+  .hero__block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .hero__content {
@@ -26,7 +38,7 @@
   transform: rotate(352deg);
 }
 
-.hero__text{
+.hero__text {
   font-weight: 700;
   font-size: 20px;
   line-height: 175%;
@@ -35,13 +47,13 @@
   color: #3E7A32;
 }
 
-.hero__subtext{
+.hero__subtext {
   font-weight: 400;
   font-size: 20px;
   line-height: 175%;
   text-align: right;
 }
 
-.hero__span{
+.hero__span {
   color: #3E7A32;
 }
