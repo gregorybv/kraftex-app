@@ -11,7 +11,7 @@ const Facts = () => {
   return (
     <section className="facts container">
       <div className="facts__block">
-        <p className="facts__title">Факты и цифры</p>
+        <h3 className="facts__title">Факты и цифры</h3>
         <nav className="facts__content">
           <ul className="facts__rows">
             <ul className="facts__row">

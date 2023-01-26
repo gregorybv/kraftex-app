@@ -7,7 +7,7 @@ const Products = () => {
   return (
    <section className="products container">
      <div className="products__block">
-       <p className="products__title">IT-продукты Kraftex</p>
+       <h2 className="products__title">IT-продукты Kraftex</h2>
        <div className="products__content">
          <div className="products__column">
            <p className="products__text">Обменный пункт Cashwallet</p>

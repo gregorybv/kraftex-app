@@ -8,7 +8,7 @@ const Privileges = () => {
   return (
     <section className="privileges container">
       <div className="privileges__block">
-        <p className="privileges__header">Привилегии</p>
+        <h3 className="privileges__header">Привилегии</h3>
         <nav className="privileges__content">
           <ul className="privileges__column">
             <img src={man} alt="man"/>

@@ -8,7 +8,7 @@ const Clients = () => {
   return (
     <section className="clients container">
       <div className="clients__clock">
-        <p className="clients__header">Стать клиентом Kraftex</p>
+        <h2 className="clients__header">Стать клиентом Kraftex</h2>
         <div className="clients__content">
           <img className='clients__image' src={safe} alt="safe"/>
           <div className="clients__right">

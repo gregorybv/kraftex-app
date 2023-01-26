@@ -6,7 +6,7 @@ const Coin = () => {
   return (
     <section className="coin container">
       <div className="coin__block">
-        <p className="coin__text">Обмен валют</p>
+        <h2 className="coin__text">Обмен валют</h2>
         <img className="coin__image" src={coin} alt="coin"/>
         <p className="coin__subtext">Kraftex предлагает услуги
           онлайн- и оффлайн-обмена валют
