@@ -6,9 +6,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 104px;
+  /*height: 104px;*/
   background: #E6E6E6;
   border-radius: 28px;
+}
+
+@media (max-width: 789px) {
+  .strip__block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .strip__section {
@@ -28,4 +35,5 @@
   font-size: 20px;
   line-height: 175%;
   color: #111111;
+  padding: 33px 0px;
 }

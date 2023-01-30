@@ -2,6 +2,12 @@
   margin-top: 85px;
 }
 
+@media (max-width: 789px) {
+  .relocation {
+    margin-top: 50px;
+  }
+}
+
 .relocation__block {
   display: flex;
   flex-direction: column;

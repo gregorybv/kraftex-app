@@ -38,6 +38,13 @@
   transform: rotate(352deg);
 }
 
+@media (max-width: 789px) {
+  .hero__card {
+    height: 280px;
+    left: 0px;
+  }
+}
+
 .hero__text {
   font-weight: 700;
   font-size: 20px;

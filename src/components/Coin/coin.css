@@ -1,14 +1,20 @@
-.coin{
+.coin {
   margin-top: 170px;
 }
 
-.coin__block{
+@media (max-width: 789px) {
+  .coin {
+    margin-top: 70px;
+  }
+}
+
+.coin__block {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.coin__text{
+.coin__text {
   font-weight: 300;
   font-size: 35px;
   line-height: 100%;
@@ -18,17 +24,17 @@
   -webkit-text-fill-color: transparent;
 }
 
-.coin__image{
+.coin__image {
   max-width: 375px;
   width: 100%;
 }
 
-.coin__subtext{
+.coin__subtext {
   font-weight: 700;
   font-size: 20px;
   line-height: 175%;
 }
 
-.coin__subtext__span{
+.coin__subtext__span {
   color: rgba(166, 246, 150, 0.861638);
 }

@@ -2,6 +2,12 @@
   margin-top: 170px;
 }
 
+@media (max-width: 915px) {
+  .privileges {
+    margin-top: 70px;
+  }
+}
+
 .privileges__block {
   display: flex;
   flex-direction: column;
@@ -34,7 +40,8 @@
   border-radius: 28px;
   padding: 33px 25px 33px 34px;
 }
-.privileges__column:hover{
+
+.privileges__column:hover {
   background: #1F1F1F;
 }
 

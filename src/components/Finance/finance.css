@@ -2,13 +2,19 @@
   margin-top: 170px;
 }
 
+@media (max-width: 789px) {
+  .finance {
+    margin-top: 70px;
+  }
+}
+
 .finance__block {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.finance__title{
+.finance__title {
   font-weight: 300;
   font-size: 35px;
   line-height: 100%;
@@ -18,19 +24,19 @@
   -webkit-text-fill-color: transparent;
 }
 
-.finance__text{
+.finance__text {
   padding: 50px 0 70px 0;
   font-weight: 400;
   font-size: 20px;
   line-height: 175%;
 }
 
-.finance__image{
+.finance__image {
   max-width: 1100px;
   width: 100%;
 }
 
-.finance__span{
+.finance__span {
   font-weight: 700;
   font-size: 20px;
   line-height: 175%;
