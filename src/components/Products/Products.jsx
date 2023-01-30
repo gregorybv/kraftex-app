@@ -5,7 +5,7 @@ import kraft from '../../assets/img/products/bot.svg'
 
 const Products = () => {
   return (
-   <section className="products container">
+   <section className="products">
      <div className="products__block">
        <h2 className="products__title">IT-продукты Kraftex</h2>
        <div className="products__content">

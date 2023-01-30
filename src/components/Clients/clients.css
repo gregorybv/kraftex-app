@@ -2,6 +2,12 @@
   margin-top: 175px;
 }
 
+@media (max-width: 789px) {
+  .clients {
+    margin-top: 75px;
+  }
+}
+
 .clients__clock {
 
   display: flex;
@@ -36,6 +42,12 @@
   max-width: 719px;
   width: 100%;
   height: 840px;
+}
+
+@media (max-width: 789px) {
+  .clients__image{
+    height: 530px;
+  }
 }
 
 .clients__warning{

@@ -30,13 +30,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 85px;
   background: #E0E0E0;
-  /*height: 141px;*/
   border-radius: 28px;
   padding: 0px 59px;
 }
+
+@media (max-width: 1100px) {
+  .products__column{
+    gap: 30px;
+  }
+}
+
+@media (max-width: 937px) {
+  .products__column{
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 915px) {
  .products__column{
    justify-content: center;

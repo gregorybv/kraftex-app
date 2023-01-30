@@ -25,3 +25,10 @@
   height: 700px;
   margin-top: 350px;
 }
+
+@media (max-width: 789px) {
+  .location__map {
+    width: 390px;
+    height: 300px;
+  }
+}

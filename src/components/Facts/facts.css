@@ -38,13 +38,22 @@
 .facts__row {
   display: flex;
   justify-content: space-between;
-  width: 720px;
+  max-width: 720px;
+  width: 100%;
   color: #FFFFFF;
+  gap: 90px;
   background: #181818;
   border-radius: 28px;
   padding: 15px 15px 15px 43px;
   align-items: center;
   list-style: none;
+}
+
+@media (max-width: 789px) {
+  .facts__row {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 }
 
 .facts__row:hover {
